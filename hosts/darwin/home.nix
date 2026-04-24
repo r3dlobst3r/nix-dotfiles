@@ -15,20 +15,10 @@
     matchBlocks = {
       "github.com" = {
         addKeysToAgent = "yes";
-        identityFile = "${config.home.homeDirectory}/.ssh/id_ed25519";
+        identityFile = "${config.home.homeDirectory}/.ssh/server";
         extraOptions = {
           UseKeychain = "yes";
         };
-      };
-
-      "cyan-minipc" = {
-        user = "cyan";
-        identityFile = "${config.home.homeDirectory}/.ssh/id_ed25519";
-      };
-
-      "cyanpi" = {
-        user = "yanchenxin";
-        identityFile = "${config.home.homeDirectory}/.ssh/id_ed25519";
       };
     };
   };

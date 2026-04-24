@@ -46,7 +46,7 @@
   # $ darwin-rebuild changelog
   system.stateVersion = 6;
 
-  system.primaryUser = "yanchenxin";
+  system.primaryUser = "andrew";
 
   programs.zsh.enable = true;
   users.users.${config.system.primaryUser} = {
